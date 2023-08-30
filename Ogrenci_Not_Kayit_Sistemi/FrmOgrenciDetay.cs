@@ -39,6 +39,15 @@ namespace Ogrenci_Not_Kayit_Sistemi
                 lblDurum.Text = dr[8].ToString();
             }
             baglanti.Close();
+
+            if (lblDurum.Text=="True")
+            {
+                lblDurum.Text = "GEÇTİ";
+            }
+            else
+            {
+                lblDurum.Text = "KALDI";
+            }
         }
     }
 }

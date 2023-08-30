@@ -53,6 +53,7 @@ namespace Ogrenci_Not_Kayit_Sistemi
             this.maskedTextBox1.Size = new System.Drawing.Size(132, 26);
             this.maskedTextBox1.TabIndex = 1;
             this.maskedTextBox1.ValidatingType = typeof(int);
+            this.maskedTextBox1.TextChanged += new System.EventHandler(this.maskedTextBox1_TextChanged);
             // 
             // button1
             // 

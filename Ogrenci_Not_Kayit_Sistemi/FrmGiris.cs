@@ -23,5 +23,14 @@ namespace Ogrenci_Not_Kayit_Sistemi
             frm.numara = maskedTextBox1.Text;
             frm.Show();
         }
+
+        private void maskedTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (maskedTextBox1.Text == "1111")
+            {
+                FrmOgretmenDetay fr = new FrmOgretmenDetay();
+                fr.Show();
+            }
+        }
     }
 }
