@@ -178,7 +178,7 @@ namespace Ogrenci_Not_Kayit_Sistemi
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(290, 378);
+            this.ClientSize = new System.Drawing.Size(383, 378);
             this.Controls.Add(this.lblDurum);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.lblOrtalama);
